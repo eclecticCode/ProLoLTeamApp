@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btBR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Brazil" />
+
+    <Button
+        android:id="@+id/btEUNE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btBR"
+        android:text="Europe Nordic East" />
+
+    <Button
+        android:id="@+id/btEUW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btEUNE"
+        android:text="Europe West" />
+
+    <Button
+        android:id="@+id/btKR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btEUW"
+        android:text="Korea" />
+
+    <Button
+        android:id="@+id/btNA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="North America" />
+
+    <Button
+        android:id="@+id/btOCE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btEUNE"
+        android:layout_alignBottom="@+id/btNA"
+        android:layout_alignParentRight="true"
+        android:text="Oceania" />
+
+    <Button
+        android:id="@+id/btRU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btEUW"
+        android:layout_alignBottom="@+id/btEUW"
+        android:layout_alignParentRight="true"
+        android:text="Russia" />
+
+    <Button
+        android:id="@+id/btTR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btKR"
+        android:layout_alignBottom="@+id/btKR"
+        android:layout_alignParentRight="true"
+        android:text="Turkey" />
+
+    <Button
+        android:id="@+id/btLAS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btLAN"
+        android:text="Latin America South" />
+
+    <Button
+        android:id="@+id/btLAN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btKR"
+        android:text="Latin America North" />
+
+</RelativeLayout>
